@@ -1,12 +1,23 @@
-# ML Server
-ml-server/__pycache__/
-ml-server/*.pyc
-ml-server/*.pyo
-ml-server/*.pkl
+# Node modules - NEVER push these
+node_modules/
+backend/node_modules/
+frontend/node_modules/
 
 # Environment variables
 .env
 backend/.env
+frontend/.env
+frontend/.env.local
+
+# Next.js build
+frontend/.next/
+frontend/out/
+
+# Python cache
+ml-server/__pycache__/
+ml-server/*.pyc
+ml-server/*.pyo
+ml-server/*.pkl
 
 # OS files
 .DS_Store
@@ -14,3 +25,7 @@ Thumbs.db
 
 # Logs
 *.log
+npm-debug.log*
+
+# Dataset (too large)
+ml-server/project_risk_raw_dataset.csv
