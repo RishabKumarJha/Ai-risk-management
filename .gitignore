@@ -1,0 +1,16 @@
+# ML Server
+ml-server/__pycache__/
+ml-server/*.pyc
+ml-server/*.pyo
+ml-server/*.pkl
+
+# Environment variables
+.env
+backend/.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
